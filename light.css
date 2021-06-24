@@ -82,11 +82,21 @@ body {
 .assap{
 width: 20rem;
 }
-
+.responsiveClass
+{
+  display: none;
+}
 
 @media screen and (max-width: 1024px) {
   .carousel-id{
-      margin-top: 10%;
+      margin-top: 7%;
+  }
+  .mobileResponsiveClass{
+    display: none;
+  }
+
+  .responsiveClass{
+    display: block;
   }
 
 }
@@ -101,7 +111,7 @@ width: 20rem;
 }
 @media screen and (max-width: 768px) {
   .carousel-id{
-    margin-top: 12%;
+    margin-top: 10%;
   }
 
 }
@@ -117,13 +127,13 @@ width: 20rem;
 @media screen and (max-width :480px) {
 
   .carousel-id{
-    margin-top: 20%;
+    margin-top: 19%;
   }
 }
 
 @media screen and (max-width :320px) {
   .carousel-id{
-    margin-top: 28%;
+    margin-top: 24%;
   }
   .assap{
     width: 14rem;
@@ -131,6 +141,6 @@ width: 20rem;
 }
 @media screen and (max-width :281px) {
   .carousel-id{
-    margin-top: 30%;
+    margin-top: 28%;
   }
 }
